@@ -1,5 +1,9 @@
+
 @charset "utf-8";
 /* CSS Document */
+body {
+    background: red !important;
+}
 body {
     background: url('https://i.pinimg.com/736x/c2/03/d8/c203d8173ef5204aac72e848515afb55.jpg') no-repeat center center fixed;
     background-size: cover;
