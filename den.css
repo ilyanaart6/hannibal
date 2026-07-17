@@ -2,7 +2,7 @@
    1. GLOBÁLNE POZADIE STRÁNKY
    ---------------------------------- */
 body {
-    background-image: url('https://i.postimg.cc/sXn1xPpy/167b37f322257e79a372e767cff9c230.jpg') !important;
+    background-image: url('https://i.postimg.cc/fyrKc9hd/ed5bd590471b7406d201734023bfd0c6.jpg') !important;
     background-attachment: fixed !important;
     background-position: center center !important;
     background-size: cover !important;
@@ -31,8 +31,8 @@ body {
 .col-md-9 .panel, 
 .panel-main,
 div.panel.panel-default {
-    background: rgba(196, 169, 151, 0.7) !important; /* Tvoja farba #C4A997 s 70% viditeľnosťou */
-    border: 1px solid rgba(226, 225, 225, 0.4) !important;
+    background: rgba(67, 18, 24, 0.7) !important; /* Tvoja farba #C4A997 s 70% viditeľnosťou */
+    border: 1px solid rgba(37, 4, 9, 0.4) !important;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3) !important;
 }
 
@@ -45,7 +45,7 @@ div.panel.panel-default {
 .col-md-9 table,
 .panel-main .panel-body {
     background: transparent !important; 
-    color: #151A1F !important; /* Tvoj tmavý text */
+    color: #080D10 !important; /* Tvoj tmavý text */
 }
 
 /* Nadpis celého boxu (Elas's Den) meníme na tmavú podľa zadania */
@@ -63,7 +63,7 @@ div.panel.panel-default {
 .col-md-9 .panel-heading h3,
 .panel-main .panel-heading h1,
 .panel-heading {
-    color: #F5F4F5 !important;
+    color: #080D10 !important;
 }
 
 /* ==========================================================================
@@ -80,8 +80,8 @@ div.panel.panel-default {
 .col-md-3 table,
 .col-md-3 td,
 .col-md-3 tr {
-    background: rgba(126, 24, 37, 0.85) !important; /* Tvoja farba #7E1825 s 85% viditeľnosťou */
-    border: 1px solid rgba(26, 30, 27, 0.2) !important;
+    background: rgba(37, 4, 9, 0.85) !important; /* Tvoja farba #7E1825 s 85% viditeľnosťou */
+    border: 1px solid rgba(37, 4, 9, 0.2) !important;
 }
 
 /* Texty v pravom paneli (biele kvôli tmavočervenému pozadiu) */
@@ -95,7 +95,7 @@ div.panel.panel-default {
 
 /* Hlavičky v pravom paneli (Mena, Bookmarks atď.) */
 .col-md-3 .panel-heading {
-    background: #1A1E1B !important;
+    background: #222328 !important;
     border-bottom: 1px solid #AFAFAF !important;
 }
 
@@ -105,7 +105,7 @@ div.panel.panel-default {
 .col-md-3 .panel-heading h3,
 .col-md-3 .panel-heading div,
 .col-md-3 .panel-heading a {
-    color: #F5F4F5 !important;
+    color: #250409 !important;
 }
 
 /* ==========================================================================
@@ -117,11 +117,11 @@ div.panel.panel-default {
 }
 
 .breadcrumb li, .breadcrumb li a {
-    color: #1A1E1B !important;
+    color: #250409 !important;
 }
 
 /* Zachovanie viditeľnosti statických textových odkazov */
 .col-md-9 a, .col-md-9 a:visited {
-    color: #1A1E1B !important;
+    color: #080D10 !important;
     font-weight: bold;
 }
