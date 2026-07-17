@@ -17,11 +17,6 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Make the outer parent column fully clear */
-.col-md-9 {
-    background: none !important;
-    border: none !important;
-}
 
 /* Apply the transparent color to the actual box panel inside */
 .col-md-9 .panel {
