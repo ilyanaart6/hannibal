@@ -17,6 +17,9 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.col-md-9 {
+      background: rgba(196, 169, 151, 0.45) !important;
+}
 
 /* ---------- MAIN CONTAINER ---------- */
 
