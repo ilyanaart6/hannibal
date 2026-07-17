@@ -127,3 +127,36 @@ div.panel.panel-default {
     color: #080D10 !important;
     font-weight: bold;
 }
+/* ==========================================================================
+   OPRAVA ORANŽOVÉHO TEXTU V PRAVOM PANELI
+   ========================================================================== */
+
+/* Zmena základných štatistických textov, odkazov a hodnôt na #D0C6BB */
+.col-md-3 a, 
+.col-md-3 a:link, 
+.col-md-3 a:visited,
+.col-md-3 .panel-body,
+.col-md-3 td,
+.col-md-3 th,
+.col-md-3 div,
+.col-md-3 span {
+    color: #D0C6BB !important;
+}
+
+/* Zmena veľkých oranžových nadpisov sekcií (Elas, Achievements, Bookmarks) */
+.col-md-3 h1,
+.col-md-3 h2,
+.col-md-3 h3,
+.col-md-3 .panel-heading a {
+    color: #D0C6BB !important;
+}
+
+/* Úprava pri prechode myšou (Hover) - text jemne zosvetlie na čistú off-white */
+.col-md-3 a:hover, 
+.col-md-3 a:active,
+.col-md-3 .panel-heading a:hover {
+    color: #F5F4F5 !important;
+    text-decoration: underline !important;
+    background: transparent !important; /* Zabráni škaredému čiernemu podfarbeniu textu */
+}
+
