@@ -11,7 +11,7 @@
 }
 
 body {
-    background: url("https://i.postimg.cc/VvJKJRbc/7260c5c5bae48e463f9252d7714f8e52.jpg") no-repeat center center fixed;
+    background: url("https://i.postimg.cc/155vVywW/4f966b23700e65cdde162f16c7f6ae7c.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #061318;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -21,35 +21,34 @@ body {
 /* ---------- MAIN CONTAINER ---------- */
 
 #container {
-    background: rgba(57, 101, 83, 0.4) !important;
-    border: 1px solid #121613;
+    background: rgba(196, 169, 151, 0.45) !important;
+    border: 1px solid #7F7364;
     border-radius: 8px;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
 }
 
 
 /* ---------- TOP BAR ---------- */
 
 .topbar {
-    background: #000000 !important;
-    color: #061318 !important;
+    background: #151A1F !important;
+    color: #C4A997 !important;
 }
 
 
 /* ---------- NAVIGATION ---------- */
 
 .navbar {
-    background: #222222 !important;
+    background: #5C1D24 !important;
     border: none !important;
 }
 
 .navbar a {
-    color: #ffffff !important;
+    color: #7E1825 !important;
 }
 
 .navbar a:hover {
-    background: #444444 !important;
-    color: #061318 !important;
+    background: #C73641 !important;
+    color: #C73641 !important;
 }
 
 
