@@ -1,86 +1,133 @@
+/* =========================
+   LIODEN CUSTOM CSS BASE
+   Customize the colors below
+   ========================= */
 
-@charset "utf-8";
-/* CSS Document */
+
+/* ---------- BACKGROUND ---------- */
 
 body {
-    background: url("https://i.postimg.cc/wMQSkFjf/c203d8173ef5204aac72e848515afb55-(1).jpg") no-repeat center center fixed !important;
-    background-size: cover !important;
-    color: #040405;
+    background: url("https://i.postimg.cc/wMQSkFjf/c203d8173ef5204aac72e848515afb55-(1).jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #000000;
+    
+    color: #ffffff;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+
+/* ---------- MAIN CONTAINER ---------- */
+
 #container {
-    background: rgba(57, 101, 83, 0.3); 
-    border: 1px solid #121613;  
-    border-radius: 4px; 
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    background: rgba(57, 101, 83, 0.4);
+    border: 1px solid #121613;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
 }
+
+
+/* ---------- TOP BAR ---------- */
 
 .topbar {
-    background: #121613 !important;
-    color: #58A48B !important;
+    background: #000000 !important;
+    color: #ffffff !important;
 }
 
+
+/* ---------- NAVIGATION ---------- */
+
 .navbar {
-    background: #396553 !important;
+    background: #222222 !important;
     border: none !important;
 }
 
 .navbar a {
-    color: #58A48B !important;
+    color: #ffffff !important;
 }
 
 .navbar a:hover {
-    background: #121613 !important; 
-    color: #061318 !important;        
+    background: #444444 !important;
+    color: #ffffff !important;
+}
+
+
+/* ---------- PANELS ---------- */
+
+.panel {
+    background: rgba(0,0,0,0.75) !important;
+    border: 1px solid #ffffff !important;
 }
 
 .panel-heading {
-    background: #396553 !important; 
-    color: #121613 !important;   
-    border-bottom: 2px solid #121613 !important;
+    background: #222222 !important;
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
 }
 
-.panel {
-    background: rgba(18, 22, 19, 0.85) !important; 
-    border: 1px solid #121613 !important;
+.panel-body {
+    color: #ffffff !important;
 }
 
-.panel-body, .table {
-    color: #061318 !important;
+
+/* ---------- TABLES ---------- */
+
+.table {
+    color: #ffffff !important;
 }
 
 .table tr:nth-child(even) {
-    background: rgba(57, 101, 83, 0.2) !important;
+    background: rgba(255,255,255,0.05) !important;
 }
 
 
-.avatar {
-    border: 3px solid #061318;
-    box-shadow: 0 0 10px rgba(4, 4, 5, 0.5);
-}
+/* ---------- LINKS ---------- */
 
-
-a:link, a:visited {
-    color: #061318;
+a:link,
+a:visited {
+    color: #ffffff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #396553;
-    text-shadow: 0px 0px 5px #121613;
+    color: #aaaaaa;
+    text-shadow: 0px 0px 5px #ffffff;
 }
 
+
+/* ---------- BUTTONS ---------- */
+
 .btn-primary {
-    background: #396553 !important;
-    border: 1px solid #061318 !important;
-    color: #061318 !important;
+    background: #222222 !important;
+    border: 1px solid #ffffff !important;
+    color: #ffffff !important;
 }
 
 .btn-primary:hover {
-    background: #58A48B !important; 
-    color: #121613 !important;
-    box-shadow: 0 0 8px #58A48B !important;
+    background: #ffffff !important;
+    color: #000000 !important;
 }
 
+
+/* ---------- AVATARS ---------- */
+
+.avatar {
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+
+/* ---------- SCROLLBAR (OPTIONAL) ---------- */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555555;
+    border-radius: 5px;
+}
 
