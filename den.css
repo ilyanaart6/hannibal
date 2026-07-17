@@ -8,6 +8,8 @@ body {
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-color: #1A1E1B !important;
+   font-family: 'Special Elite', monospace !important;
+
 }
 
 /* ==========================================================================
@@ -53,7 +55,7 @@ div.panel.panel-default {
 .panel-main .panel-heading,
 .col-md-9 h1,
 .col-md-9 .top {
-    background: #1A1E1B !important;
+    background: #250409 !important;
     border-bottom: 2px solid #AFAFAF !important;
 }
 
@@ -63,7 +65,7 @@ div.panel.panel-default {
 .col-md-9 .panel-heading h3,
 .panel-main .panel-heading h1,
 .panel-heading {
-    color: #080D10 !important;
+    color: #fffff !important;
 }
 
 /* ==========================================================================
