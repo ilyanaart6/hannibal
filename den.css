@@ -7,11 +7,11 @@
 /* ---------- BACKGROUND ---------- */
 #main,
 #content{
-   background: rgba(200, 210, 205, 0.45) !important;
+   background: rgba(196, 169, 151, 0.7) !important;
 }
 
 body {
-    background: url("https://i.postimg.cc/155vVywW/4f966b23700e65cdde162f16c7f6ae7c.jpg") no-repeat center center fixed;
+    background: url("https://i.postimg.cc/YCXPXhfP/d.png") no-repeat center center fixed;
     background-size: cover;
     color: #151A1F;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
