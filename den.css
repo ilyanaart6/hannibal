@@ -1,134 +1,122 @@
-/* =========================
-   LIODEN CUSTOM CSS BASE
-   Customize the colors below
-   ========================= */
-
-
-/* ---------- BACKGROUND ---------- */
-#main,
-#content{
-   background: rgba(196, 169, 151, 0.7) !important;
-}
-
+/* ----------------------------------
+   1. GLOBAL PAGE & BACKGROUND IMAGE
+   ---------------------------------- */
 body {
-    background: url("https://i.postimg.cc/YCXPXhfP/d.png") no-repeat center center fixed;
-    background-size: cover;
-    color: #151A1F;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* Replace direct link below with your hosted collage image URL if needed */
+    background-image: url("https://i.postimg.cc/sXn1xPpy/167b37f322257e79a372e767cff9c230.jpg") !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-color: #1A1E1B !important;
 }
 
-
-
-/* ---------- MAIN CONTAINER ---------- */
-
-#container {
-    background: rgba(196, 169, 151, 0.45) !important;
-    border: 1px solid #7F7364;
-    border-radius: 8px;
-}
-
-
-/* ---------- TOP BAR ---------- */
-
-.topbar {
-    background: #151A1F !important;
-    color: #C4A997 !important;
-}
-
-
-/* ---------- NAVIGATION ---------- */
-
-.navbar {
-    background: #5C1D24 !important;
+/* ----------------------------------
+   2. TOP NAVIGATION BAR STYLING
+   ---------------------------------- */
+/* Dark charcoal navigation base (#1A1E1B) */
+.navbar, .navbar-main {
+    background: #1A1E1B !important;
     border: none !important;
 }
 
-.navbar a {
-    color: #7E1825 !important;
+/* Off-white navigation links (#F5F4F5) */
+.navbar-main li a {
+    color: #F5F4F5 !important;
 }
 
-.navbar a:hover {
-    background: #C73641 !important;
-    color: #C73641 !important;
+/* Light grey link hover effect (#E2E1E1) */
+.navbar-main li a:hover {
+    color: #E2E1E1 !important;
+    background: rgba(245, 244, 245, 0.1) !important;
 }
 
-
-/* ---------- PANELS ---------- */
-
-.panel {
-    background: rgba(0,0,0,0.4) !important;
-    border: 1px solid #ffffff !important;
+/* ----------------------------------
+   3. LEFT MAIN CONTENT BOX (.col-md-9)
+   ---------------------------------- */
+/* Transparent outer grid column */
+.col-md-9 {
+    background: none !important;
+    border: none !important;
 }
 
-.panel-heading {
-    background: rgba(57, 101, 83, 0.4) !important;
-    color: #061318 !important;
-    border-bottom: 2px solid #ffffff !important;
+/* Main inner panel: Soft grey (#C8C8C8) at 0.65 opacity */
+.col-md-9 .panel {
+    background: rgba(200, 200, 200, 0.65) !important;
+    border: 1px solid rgba(226, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3) !important;
 }
 
-.panel-body {
-    color: #061318 !important;
+/* Main Box Header: Deep Charcoal (#1A1E1B) */
+.col-md-9 .panel-heading {
+    background: #1A1E1B !important;
+    border-bottom: 2px solid #AFAFAF !important;
 }
 
-
-/* ---------- TABLES ---------- */
-
-.table {
-    color: #C4A997 !important;
+/* Main Header Text: Off-white (#F5F4F5) */
+.col-md-9 .panel-heading h1,
+.col-md-9 .panel-heading h2,
+.col-md-9 .panel-heading h3 {
+    color: #F5F4F5 !important;
 }
 
-.table tr:nth-child(even) {
-    background: rgba(255,255,255,0.05) !important;
+/* Main Box Body Text: Deep Charcoal (#1A1E1B) */
+.col-md-9 .panel-body, 
+.col-md-9 p, 
+.col-md-9 div,
+.col-md-9 td {
+    color: #1A1E1B !important;
 }
 
-
-/* ---------- LINKS ---------- */
-
-a:link,
-a:visited {
-    color: #C4A997;
-    text-decoration: none;
+/* ----------------------------------
+   4. RIGHT SIDEBAR STYLING (.col-md-3)
+   ---------------------------------- */
+/* Transparent outer grid column */
+.col-md-3 {
+    background: none !important;
+    border: none !important;
 }
 
-a:hover {
-    color: #C4A997;
+/* Sidebar inner panels: Darker grey (#AFAFAF) at 0.8 opacity for legibility */
+.col-md-3 .panel {
+    background: rgba(175, 175, 175, 0.8) !important;
+    border: 1px solid rgba(26, 30, 27, 0.2) !important;
 }
 
-
-/* ---------- BUTTONS ---------- */
-
-.btn-primary {
-    background: #5C1D24 !important;
-    border: 1px solid #ffffff !important;
-    color: #C4A997 !important;
+/* Sidebar Headers: Deep Charcoal (#1A1E1B) */
+.col-md-3 .panel-heading {
+    background: #1A1E1B !important;
+    border-bottom: 1px solid #AFAFAF !important;
 }
 
-.btn-primary:hover {
-    background: #5C1D24  !important;
-    color: #C4A997; !important;
+/* Sidebar Header Text: Off-white (#F5F4F5) */
+.col-md-3 .panel-heading h1,
+.col-md-3 .panel-heading h2,
+.col-md-3 .panel-heading h3,
+.col-md-3 .panel-heading div {
+    color: #F5F4F5 !important;
 }
 
-
-/* ---------- AVATARS ---------- */
-
-.avatar {
-    border: 3px solid #7E1825;
-    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+/* Sidebar Stats Body Text: Deep Charcoal (#1A1E1B) */
+.col-md-3 .panel-body,
+.col-md-3 .panel-body td,
+.col-md-3 .panel-body div,
+.col-md-3 .panel-body span {
+    color: #1A1E1B !important;
 }
 
-
-/* ---------- SCROLLBAR (OPTIONAL) ---------- */
-
-::-webkit-scrollbar {
-    width: 10px;
+/* ----------------------------------
+   5. PROFILE TEXT LINKS (In-page Links)
+   ---------------------------------- */
+/* Default static links: Deep Charcoal (#1A1E1B) underlined */
+a:link, a:visited {
+    color: #1A1E1B !important;
+    text-decoration: underline;
 }
 
-::-webkit-scrollbar-track {
-    background: #111111;
+/* Hovered links: Shifts to Off-white (#F5F4F5) with a charcoal block */
+a:hover, a:active {
+    color: #F5F4F5 !important;
+    background: #1A1E1B !important;
+    text-decoration: none !important;
 }
-
-::-webkit-scrollbar-thumb {
-    background: #555555;
-    border-radius: 5px;
-}
-
