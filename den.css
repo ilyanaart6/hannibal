@@ -10,62 +10,96 @@ body {
     background-color: #1A1E1B !important;
 }
 
-/* ----------------------------------
-   2. HLAVNÝ BOX (VĽAVO - .col-md-9)
-   ---------------------------------- */
-/* Vyčistenie pozadia hlavného kontajnera */
-.col-md-9, .col-md-9 .panel, .panel-main {
-    background: rgba(200, 200, 200, 0.65) !important;
+/* ==========================================================================
+   2. HLAVNÝ KONTRASTNÝ KONTAJNER (Základ úspechu)
+   ========================================================================== */
+/* Lioden obaľuje den do vnútornej bielej/sivej plochy. Musíme ju zneviditeľniť. */
+.container.main, 
+.container .main, 
+#main,
+.content-box {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ==========================================================================
+   3. HLAVNÝ BOX (VĽAVO - .col-md-9)
+   ========================================================================== */
+/* Nastavenie polotransparentného pozadia pre celý ľavý panel */
+.col-md-9, 
+.col-md-9 .panel, 
+.panel-main,
+div.panel.panel-default {
+    background: rgba(196, 169, 151, 0.7) !important; /* Tvoja farba #C4A997 s 70% viditeľnosťou */
     border: 1px solid rgba(226, 225, 225, 0.4) !important;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3) !important;
 }
 
-/* Oprava vnútrajšku boxu (Lioden panel-body a p) */
+/* Vynútenie priehľadnosti pre VŠETKY vnútorné bunky a textové bloky */
 .col-md-9 .panel-body, 
 .col-md-9 p, 
 .col-md-9 div,
 .col-md-9 td,
+.col-md-9 tr,
+.col-md-9 table,
 .panel-main .panel-body {
-    background: transparent !important; /* Odstráni vnútornú sivú vrstvu */
-    color: #151A1F !important; /* Tvoj vybraný text #151A1F */
+    background: transparent !important; 
+    color: #151A1F !important; /* Tvoj tmavý text */
 }
 
-/* Hlavička hlavného boxu (Elas's Den) */
-.col-md-9 .panel-heading, .panel-main .panel-heading {
+/* Nadpis celého boxu (Elas's Den) meníme na tmavú podľa zadania */
+.col-md-9 .panel-heading, 
+.panel-main .panel-heading,
+.col-md-9 h1,
+.col-md-9 .top {
     background: #1A1E1B !important;
     border-bottom: 2px solid #AFAFAF !important;
 }
 
-/* Text v hlavičke hlavného boxu */
+/* Text nadpisu (Elas's Den) na off-white pre dobrú čitateľnosť */
 .col-md-9 .panel-heading h1,
 .col-md-9 .panel-heading h2,
 .col-md-9 .panel-heading h3,
-.panel-main .panel-heading h1 {
+.panel-main .panel-heading h1,
+.panel-heading {
     color: #F5F4F5 !important;
 }
 
-/* ----------------------------------
-   3. BOČNÝ PANEL (VPRAVO - .col-md-3)
-   ---------------------------------- */
-/* Odstránenie predvoleného pozadia pre pravé stĺpce */
+/* ==========================================================================
+   4. BOČNÝ PANEL (VPRAVO - .col-md-3)
+   ========================================================================== */
+/* Vyčistenie stĺpca */
 .col-md-3 {
     background: none !important;
 }
 
-/* Prepis všetkých malých panelov vpravo na tmavšiu transparentnú sivú */
-.col-md-3 .panel, .col-md-3 .panel-body {
-    background: rgba(175, 175, 175, 0.8) !important;
+/* Nastavenie menej transparentného pozadia pre pravé štatistiky */
+.col-md-3 .panel, 
+.col-md-3 .panel-body,
+.col-md-3 table,
+.col-md-3 td,
+.col-md-3 tr {
+    background: rgba(126, 24, 37, 0.85) !important; /* Tvoja farba #7E1825 s 85% viditeľnosťou */
     border: 1px solid rgba(26, 30, 27, 0.2) !important;
-    color: #1A1E1B !important;
 }
 
-/* Hlavičky v bočnom paneli (Mena, Bookmarks atd.) */
+/* Texty v pravom paneli (biele kvôli tmavočervenému pozadiu) */
+.col-md-3 .panel-body td,
+.col-md-3 .panel-body div,
+.col-md-3 .panel-body span,
+.col-md-3 p,
+.col-md-3 div {
+    color: #F5F4F5 !important;
+}
+
+/* Hlavičky v pravom paneli (Mena, Bookmarks atď.) */
 .col-md-3 .panel-heading {
     background: #1A1E1B !important;
     border-bottom: 1px solid #AFAFAF !important;
 }
 
-/* Text v hlavičkách bočného panela */
+/* Text v hlavičkách pravého panela */
 .col-md-3 .panel-heading h1,
 .col-md-3 .panel-heading h2,
 .col-md-3 .panel-heading h3,
@@ -74,22 +108,20 @@ body {
     color: #F5F4F5 !important;
 }
 
-/* Oprava textu a tabuliek v bočnom paneli */
-.col-md-3 .panel-body td,
-.col-md-3 .panel-body div,
-.col-md-3 .panel-body span {
-    background: transparent !important;
-    color: #1A1E1B !important;
-}
-
-/* ----------------------------------
-   4. DROBÉ ÚPRAVY (Breadcrumbs & Text)
-   ---------------------------------- */
-/* Cesta nad hlavným nadpisom (Home / Elas's Den) */
+/* ==========================================================================
+   5. DROBNÉ ÚPRAVY (Breadcrumbs & Progress Bars)
+   ========================================================================== */
+/* Lišta s navigáciou (Home / Elas's Den) */
 .breadcrumb {
     background: rgba(245, 244, 245, 0.5) !important;
 }
 
 .breadcrumb li, .breadcrumb li a {
     color: #1A1E1B !important;
+}
+
+/* Zachovanie viditeľnosti statických textových odkazov */
+.col-md-9 a, .col-md-9 a:visited {
+    color: #1A1E1B !important;
+    font-weight: bold;
 }
