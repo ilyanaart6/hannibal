@@ -1,0 +1,70 @@
+/* ----------------------------------
+   1. MAIN BOX & TRANSPARENCY
+   ---------------------------------- */
+/* Clear default container styling */
+.col-md-9 {
+    background: none !important;
+    border: none !important;
+}
+
+/* Main box: #C4A997 with 0.7 transparency */
+.col-md-9 .panel {
+    background: rgba(196, 169, 151, 0.7) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ----------------------------------
+   2. MAIN TEXT COLOR
+   ---------------------------------- */
+/* Sets body text inside the main box to #151A1F */
+.col-md-9 .panel-body, 
+.col-md-9 p, 
+.col-md-9 div {
+    color: #151A1F !important;
+}
+
+/* ----------------------------------
+   3. BOX HEADER 
+   ---------------------------------- */
+/* Matches the "Elas's Den" header bar to the dark red top navigation */
+.col-md-9 .panel-heading {
+    background: #4E1319 !important; 
+    border-bottom: 1px solid #330b10 !important;
+}
+
+/* Header text color (White for high contrast) */
+.col-md-9 .panel-heading h1,
+.col-md-9 .panel-heading h2,
+.col-md-9 .panel-heading h3 {
+    color: #FFFFFF !important;
+}
+
+/* ----------------------------------
+   4. RIGHT SIDEBAR
+   ---------------------------------- */
+/* Clear default sidebar container */
+.col-md-3 {
+    background: none !important;
+    border: none !important;
+}
+
+/* Sidebar panels: #7E1825 with thicker 0.85 opacity */
+.col-md-3 .panel {
+    background: rgba(126, 24, 37, 0.85) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Sidebar header bars */
+.col-md-3 .panel-heading {
+    background: #4E1319 !important;
+    border-bottom: 1px solid #330b10 !important;
+}
+
+/* Sidebar text color (White so it reads clearly over the dark red) */
+.col-md-3 .panel-body,
+.col-md-3 .panel-body td,
+.col-md-3 .panel-body div {
+    color: #FFFFFF !important;
+}
