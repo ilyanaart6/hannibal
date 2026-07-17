@@ -36,7 +36,7 @@ body {
 
 .navbar a:hover {
     background: #121613 !important; 
-    color: #ffffff !important;        
+    color: #061318 !important;        
 }
 
 /* ==========================================
@@ -55,7 +55,7 @@ body {
 }
 
 .panel-body, .table {
-    color: #ffffff !important;
+    color: #061318 !important;
 }
 
 .table tr:nth-child(even) {
