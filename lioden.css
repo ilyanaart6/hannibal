@@ -16,10 +16,6 @@ body {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* ==========================================
-   2. NAVIGÁCIA A LIŠTY (NAVBAR & TOPBAR)
-   ========================================== */
-
 .topbar {
     background: #121613 !important;
     color: #58A48B !important;
@@ -38,10 +34,6 @@ body {
     background: #121613 !important; 
     color: #061318 !important;        
 }
-
-/* ==========================================
-   3. PANELY A BOXY (PANELS & BOXES)
-   ========================================== */
 
 .panel-heading {
     background: #396553 !important; 
@@ -62,18 +54,12 @@ body {
     background: rgba(57, 101, 83, 0.2) !important;
 }
 
-/* ==========================================
-   4. PROFILOVÉ INFORMÁCIE (USER INFO & AVATAR)
-   ========================================= */
 
 .avatar {
     border: 3px solid #061318;
     box-shadow: 0 0 10px rgba(4, 4, 5, 0.5);
 }
 
-/* ==========================================
-   5. TLAČIDLÁ A ODKAZY (BUTTONS & LINKS)
-   ========================================== */
 
 a:link, a:visited {
     color: #061318;
