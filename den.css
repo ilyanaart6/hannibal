@@ -1,9 +1,8 @@
 /* ----------------------------------
-   1. GLOBAL PAGE & BACKGROUND IMAGE
+   1. GLOBÁLNE POZADIE STRÁNKY
    ---------------------------------- */
 body {
-    /* Replace direct link below with your hosted collage image URL if needed */
-    background-image: url("https://i.postimg.cc/sXn1xPpy/167b37f322257e79a372e767cff9c230.jpg") !important;
+    background-image: url('https://i.postimg.cc/sXn1xPpy/167b37f322257e79a372e767cff9c230.jpg') !important;
     background-attachment: fixed !important;
     background-position: center center !important;
     background-size: cover !important;
@@ -12,111 +11,85 @@ body {
 }
 
 /* ----------------------------------
-   2. TOP NAVIGATION BAR STYLING
+   2. HLAVNÝ BOX (VĽAVO - .col-md-9)
    ---------------------------------- */
-/* Dark charcoal navigation base (#1A1E1B) */
-.navbar, .navbar-main {
-    background: #1A1E1B !important;
-    border: none !important;
-}
-
-/* Off-white navigation links (#F5F4F5) */
-.navbar-main li a {
-    color: #F5F4F5 !important;
-}
-
-/* Light grey link hover effect (#E2E1E1) */
-.navbar-main li a:hover {
-    color: #E2E1E1 !important;
-    background: rgba(245, 244, 245, 0.1) !important;
-}
-
-/* ----------------------------------
-   3. LEFT MAIN CONTENT BOX (.col-md-9)
-   ---------------------------------- */
-/* Transparent outer grid column */
-.col-md-9 {
-    background: none !important;
-    border: none !important;
-}
-
-/* Main inner panel: Soft grey (#C8C8C8) at 0.65 opacity */
-.col-md-9 .panel {
+/* Vyčistenie pozadia hlavného kontajnera */
+.col-md-9, .col-md-9 .panel, .panel-main {
     background: rgba(200, 200, 200, 0.65) !important;
     border: 1px solid rgba(226, 225, 225, 0.4) !important;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3) !important;
 }
 
-/* Main Box Header: Deep Charcoal (#1A1E1B) */
-.col-md-9 .panel-heading {
+/* Oprava vnútrajšku boxu (Lioden panel-body a p) */
+.col-md-9 .panel-body, 
+.col-md-9 p, 
+.col-md-9 div,
+.col-md-9 td,
+.panel-main .panel-body {
+    background: transparent !important; /* Odstráni vnútornú sivú vrstvu */
+    color: #151A1F !important; /* Tvoj vybraný text #151A1F */
+}
+
+/* Hlavička hlavného boxu (Elas's Den) */
+.col-md-9 .panel-heading, .panel-main .panel-heading {
     background: #1A1E1B !important;
     border-bottom: 2px solid #AFAFAF !important;
 }
 
-/* Main Header Text: Off-white (#F5F4F5) */
+/* Text v hlavičke hlavného boxu */
 .col-md-9 .panel-heading h1,
 .col-md-9 .panel-heading h2,
-.col-md-9 .panel-heading h3 {
+.col-md-9 .panel-heading h3,
+.panel-main .panel-heading h1 {
     color: #F5F4F5 !important;
 }
 
-/* Main Box Body Text: Deep Charcoal (#1A1E1B) */
-.col-md-9 .panel-body, 
-.col-md-9 p, 
-.col-md-9 div,
-.col-md-9 td {
+/* ----------------------------------
+   3. BOČNÝ PANEL (VPRAVO - .col-md-3)
+   ---------------------------------- */
+/* Odstránenie predvoleného pozadia pre pravé stĺpce */
+.col-md-3 {
+    background: none !important;
+}
+
+/* Prepis všetkých malých panelov vpravo na tmavšiu transparentnú sivú */
+.col-md-3 .panel, .col-md-3 .panel-body {
+    background: rgba(175, 175, 175, 0.8) !important;
+    border: 1px solid rgba(26, 30, 27, 0.2) !important;
     color: #1A1E1B !important;
 }
 
-/* ----------------------------------
-   4. RIGHT SIDEBAR STYLING (.col-md-3)
-   ---------------------------------- */
-/* Transparent outer grid column */
-.col-md-3 {
-    background: none !important;
-    border: none !important;
-}
-
-/* Sidebar inner panels: Darker grey (#AFAFAF) at 0.8 opacity for legibility */
-.col-md-3 .panel {
-    background: rgba(175, 175, 175, 0.8) !important;
-    border: 1px solid rgba(26, 30, 27, 0.2) !important;
-}
-
-/* Sidebar Headers: Deep Charcoal (#1A1E1B) */
+/* Hlavičky v bočnom paneli (Mena, Bookmarks atd.) */
 .col-md-3 .panel-heading {
     background: #1A1E1B !important;
     border-bottom: 1px solid #AFAFAF !important;
 }
 
-/* Sidebar Header Text: Off-white (#F5F4F5) */
+/* Text v hlavičkách bočného panela */
 .col-md-3 .panel-heading h1,
 .col-md-3 .panel-heading h2,
 .col-md-3 .panel-heading h3,
-.col-md-3 .panel-heading div {
+.col-md-3 .panel-heading div,
+.col-md-3 .panel-heading a {
     color: #F5F4F5 !important;
 }
 
-/* Sidebar Stats Body Text: Deep Charcoal (#1A1E1B) */
-.col-md-3 .panel-body,
+/* Oprava textu a tabuliek v bočnom paneli */
 .col-md-3 .panel-body td,
 .col-md-3 .panel-body div,
 .col-md-3 .panel-body span {
+    background: transparent !important;
     color: #1A1E1B !important;
 }
 
 /* ----------------------------------
-   5. PROFILE TEXT LINKS (In-page Links)
+   4. DROBÉ ÚPRAVY (Breadcrumbs & Text)
    ---------------------------------- */
-/* Default static links: Deep Charcoal (#1A1E1B) underlined */
-a:link, a:visited {
-    color: #1A1E1B !important;
-    text-decoration: underline;
+/* Cesta nad hlavným nadpisom (Home / Elas's Den) */
+.breadcrumb {
+    background: rgba(245, 244, 245, 0.5) !important;
 }
 
-/* Hovered links: Shifts to Off-white (#F5F4F5) with a charcoal block */
-a:hover, a:active {
-    color: #F5F4F5 !important;
-    background: #1A1E1B !important;
-    text-decoration: none !important;
+.breadcrumb li, .breadcrumb li a {
+    color: #1A1E1B !important;
 }
