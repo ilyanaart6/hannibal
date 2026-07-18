@@ -65,7 +65,7 @@ div.panel.panel-default {
 .col-md-9 .panel-heading h3,
 .panel-main .panel-heading h1,
 .panel-heading {
-    color: #fffff !important;
+    color: #D0C6BB !important;
 }
 
 /* ==========================================================================
@@ -124,7 +124,7 @@ div.panel.panel-default {
 
 /* Zachovanie viditeľnosti statických textových odkazov */
 .col-md-9 a, .col-md-9 a:visited {
-    color: #080D10 !important;
+    color: #D0C6BB !important;
     font-weight: bold;
 }
 /* ==========================================================================
@@ -155,7 +155,7 @@ div.panel.panel-default {
 .col-md-3 a:hover, 
 .col-md-3 a:active,
 .col-md-3 .panel-heading a:hover {
-    color: #F5F4F5 !important;
+    color: #D0C6BB !important;
     text-decoration: underline !important;
     background: transparent !important; /* Zabráni škaredému čiernemu podfarbeniu textu */
 }
