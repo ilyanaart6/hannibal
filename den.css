@@ -160,3 +160,26 @@ div.panel.panel-default {
     background: transparent !important; /* Zabráni škaredému čiernemu podfarbeniu textu */
 }
 
+<style>
+/* Changes the top navigation bar color */
+.navbar-inverse, .topbar {
+    background-color: #702120 !important;
+    border-color: #702120 !important;
+}
+
+/* Changes the main navigation bar (Den, Crossroads, etc.) */
+.navbar-default {
+    background-color: #2A0608 !important;
+    border-color: #2A0608 !important;
+   ccolor: #D0C6BB !important;
+}
+
+
+
+/* Changes the specific text color inside the Elas's Den header if needed */
+h1, .page-header {
+    color: #ffffff !important;
+}
+</style>
+
+
