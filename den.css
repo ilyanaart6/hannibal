@@ -140,7 +140,7 @@ div.panel.panel-default {
 .col-md-3 th,
 .col-md-3 div,
 .col-md-3 span {
-    color: #D0C6BB !important;
+    color: #E3C8AB !important;
 }
 
 /* Zmena veľkých oranžových nadpisov sekcií (Elas, Achievements, Bookmarks) */
@@ -155,7 +155,7 @@ div.panel.panel-default {
 .col-md-3 a:hover, 
 .col-md-3 a:active,
 .col-md-3 .panel-heading a:hover {
-    color: #D0C6BB !important;
+    color: #8F5A1B !important;
     text-decoration: underline !important;
     background: transparent !important; /* Zabráni škaredému čiernemu podfarbeniu textu */
 }
@@ -163,15 +163,15 @@ div.panel.panel-default {
 <style>
 /* Changes the top navigation bar color */
 .navbar-inverse, .topbar {
-    background-color: #702120 !important;
-    border-color: #702120 !important;
+    background-color: #7A430B !important;
+    border-color: #7A430B !important;
 }
 
 /* Changes the main navigation bar (Den, Crossroads, etc.) */
 .navbar-default {
-    background-color: #2A0608 !important;
-    border-color: #2A0608 !important;
-   ccolor: #D0C6BB !important;
+    background-color: #7A430B !important;
+    border-color: #7A430B !important;
+   ccolor: #E3C8AB !important;
 }
 
 
