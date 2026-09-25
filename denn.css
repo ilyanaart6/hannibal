@@ -9,7 +9,7 @@
 
 /* Main box: #C4A997 with 0.7 transparency */
 .col-md-9 .panel {
-    background: rgba(203, 149, 87, 0.7) !important;
+    background: rgba(32, 57, 80, 0.7) !important;
     border: none !important;
     box-shadow: none !important;
 }
@@ -21,7 +21,7 @@
 .col-md-9 .panel-body, 
 .col-md-9 p, 
 .col-md-9 div {
-    color: #E3C8AB !important;
+    color: #4F3B2B !important;
 }
 
 /* ----------------------------------
