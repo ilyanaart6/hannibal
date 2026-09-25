@@ -9,7 +9,7 @@
 
 /* Main box: #C4A997 with 0.7 transparency */
 .col-md-9 .panel {
-    background: rgba(196, 169, 151, 0.7) !important;
+    background: rgba(203, 149, 87, 0.7) !important;
     border: none !important;
     box-shadow: none !important;
 }
@@ -21,7 +21,7 @@
 .col-md-9 .panel-body, 
 .col-md-9 p, 
 .col-md-9 div {
-    color: #151A1F !important;
+    color: #E3C8AB !important;
 }
 
 /* ----------------------------------
@@ -29,8 +29,8 @@
    ---------------------------------- */
 /* Matches the "Elas's Den" header bar to the dark red top navigation */
 .col-md-9 .panel-heading {
-    background: #4E1319 !important; 
-    border-bottom: 1px solid #330b10 !important;
+    background: #7A430B !important; 
+    border-bottom: 1px solid #7A430B !important;
 }
 
 /* Header text color (White for high contrast) */
@@ -51,15 +51,15 @@
 
 /* Sidebar panels: #7E1825 with thicker 0.85 opacity */
 .col-md-3 .panel {
-    background: rgba(126, 24, 37, 0.85) !important;
+    background: rgba(143, 90, 27, 0.85) !important;
     border: none !important;
     box-shadow: none !important;
 }
 
 /* Sidebar header bars */
 .col-md-3 .panel-heading {
-    background: #4E1319 !important;
-    border-bottom: 1px solid #330b10 !important;
+    background: #8F5A1B !important;
+    border-bottom: 1px solid #8F5A1B !important;
 }
 
 /* Sidebar text color (White so it reads clearly over the dark red) */
