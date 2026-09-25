@@ -7,9 +7,9 @@ body {
     background-position: center center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-color: #1A1E1B !important;
+    background-color: #CB9557 !important;
    font-family: 'Special Elite', monospace !important;
-   color: #D0C6BB;
+   color: #4F3B2B;
 }
 
 /* ==========================================================================
@@ -33,7 +33,7 @@ body {
 .col-md-9 .panel, 
 .panel-main,
 div.panel.panel-default {
-    background: rgba(67, 18, 24, 0.7) !important; /* Tvoja farba #C4A997 s 70% viditeľnosťou */
+    background: rgba(122, 67, 11, 0.7) !important; /* Tvoja farba #C4A997 s 70% viditeľnosťou */
     border: 1px solid rgba(37, 4, 9, 0.4) !important;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3) !important;
 }
